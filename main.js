@@ -2,8 +2,21 @@
  * Your code here!
  ******************************************************************************/
 
+ function convert(num){
+   let cel = num * 9 / 5 + 32;
+   return cel
+ }
+const userInput = getInput(0);
 
+const result = convert(userInput)
+console.log(result)
 
+getInput(0)
+console.log(32)
+getInput(100)
+console.log(212, 32)
+getInput(5)
+console.log(41,32, 212, 32)
 
 
 /*******************************************************************************
